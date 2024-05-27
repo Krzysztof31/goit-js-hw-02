@@ -18,10 +18,8 @@ function getShippingCost(country) {
             price = 120;
             message = `Shipping to ${country} will cost ${price} credits`;
             break;
-        case 'germany':
-            message = 'Sorry, there is no delivery to your country'
-        case 'sweden':
-            message = 'Sorry, there is no delivery to your country'
+        default:
+             message = "Sorry, there is no delivery to your country";
             
         
     }
